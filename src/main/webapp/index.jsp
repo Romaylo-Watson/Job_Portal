@@ -29,7 +29,7 @@ background-size:cover;
 <div class="text-center">
 
 <h1 class="text-white p-4">
-<i class="fa fa-book"aria-hidden="true"></i>Online Job Portel</h1>
+<i class="fa fa-book"aria-hidden="true"></i>Online Job Portal</h1>
 </div>
 </div>
 
