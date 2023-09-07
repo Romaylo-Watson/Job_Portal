@@ -17,7 +17,7 @@
 .back-img{
 background: url("img/j1.jpg");
 width:100%;
-height:80vh;
+height:85vh;
 background-repeat:no-repeat;
 background-size:cover;
 
@@ -29,7 +29,7 @@ background-size:cover;
 <div class="text-center">
 
 <h1 class="text-white p-4">
-<i class="fa fa-book"aria-hidden="true"></i>Online Job Portal</h1>
+<i class="fa fa-book"aria-hidden="true"></i>Online Job Portel</h1>
 </div>
 </div>
 
