@@ -15,7 +15,7 @@
 </head>
 <body>
 <%@include file="all_component/navbar.jsp"%>
-<%Connection conn=DBConnect.getConn(); %>
+
 
 <style type="text/css">
 

@@ -1,5 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+ 
+ <%@ page isELIgnored="false"  %>
+ 
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,13 +21,14 @@
              <div class="card-body">
                  <div class="text-center text-success">
                      <i class="fa fa-user-friends fa-3"></i>
-                       <%-- <c:if test="${not empty succMsg}">
-                             <div class="alert alert-success" role="alert">${succMsg}</div>
+                        <c:if test="${not empty succMsg}">
+                            <div class="alert alert-success" role="alert">${succMsg}</div>
                              <c:remove var="succMsg"/>
-                        </c:if> --%>
+                        </c:if>
+                        
                  <h5>Add Jobs</h5>
                  </div>
-                 <form action="addjob" method="post">
+                 <form action="add_job" method="post">
                       <div class="form-group">
                            <label>Enter Title</label><input type="text" name="title"
                            required class="form-control">
